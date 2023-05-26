@@ -1,0 +1,44 @@
+form { 
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.radioWrapper {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+  margin: 10px 0px;
+}
+
+.textarea {
+  resize: none;
+}
+
+.margin {
+  margin: 10px 0px 5px;
+}
+
+.checkboxWrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  max-width: 100px;
+  height: 20px;
+  margin: 10px 0px;
+}
+
+.hide {
+  display: none;
+}
+
+.table {
+  border: 1px solid black;
+}
